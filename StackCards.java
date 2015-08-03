@@ -112,7 +112,6 @@ public class StackCards {
     }
 
     private void translateDownView(){
-        if(topCard ==0)topCard=1;
         if(topCard< cardsContainer.getChildCount() -1) {
             View card = cardsContainer.getChildAt(cardsContainer.getChildCount() - topCard - 1);
             Log.d("TOPCARD-D", String.valueOf(topCard));
@@ -169,7 +168,7 @@ public class StackCards {
     }
     private void translateUpView(){
         if(topCard > 7)topCard=7;
-        if(topCard > 1) {
+        if(topCard > 0) {
             View card = cardsContainer.getChildAt(cardsContainer.getChildCount() - topCard);
             Log.d("TOPCARD-U", String.valueOf(topCard));
 
