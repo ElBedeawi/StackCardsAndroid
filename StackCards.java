@@ -1,4 +1,4 @@
-package com.benchmark.sukkarselfie.utilities;
+package com.elbedeawi.stackcards.libs;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -15,8 +15,8 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.benchmark.sukkarselfie.DashboardActivity;
-import com.benchmark.sukkarselfie.R;
+import com.elbedeawi.stackcards.MainActivity;
+import com.elbedeawi.stackcards.R;
 
 import java.lang.ref.WeakReference;
 
